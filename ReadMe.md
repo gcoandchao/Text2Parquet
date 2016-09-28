@@ -9,3 +9,28 @@ Running :
 yarn jar uber-t2p-0.0.1-SNAPSHOT.jar input_path junk_strings output_path
 
 Currently the schema is a static data. 
+
+
+
+
+
+Current Input Data : 
+
+/user/nchakr200/parquet/input/test.csv
+
+niloy,engineer
+tim,engineer
+bob,contracter,
+Jim,Manager
+
+Output 
+
+/  user / nchakr200 / parquet / output / part-m-00000.parquet
+
+{"jobtitle": "engineer", "name": "niloy"}
+{"jobtitle": "engineer", "name": "tim"}
+{"jobtitle": "contracter", "name": "bob"}
+{"jobtitle": "Manager", "name": "Jim"}
+
+
+
