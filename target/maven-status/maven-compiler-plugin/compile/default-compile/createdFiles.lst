@@ -1,0 +1,3 @@
+edu/text/to/parquet/t2p/ParquetArrayWritableSupport.class
+edu/text/to/parquet/t2p/JobDriverParquet.class
+edu/text/to/parquet/t2p/JobDriverParquet$ReadRequestMap.class
